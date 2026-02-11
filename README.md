@@ -73,25 +73,86 @@ This project answers key business questions:
 
 **Key Insight:** Power users (5.42%) show 0.37 avg purchases per user, suggesting these engaged users are prime targets for retention and upsell strategies.
 
-### Analysis Readiness
-✅ Ready to proceed with:
-- Cohort retention analysis (90-day window available)
-- Revenue driver identification (product/category data present)
-- Marketing attribution (traffic source data complete)
-- Churn risk modeling (engagement and purchase patterns clear)
+## 📈 Cohort Retention Analysis
 
-⚠️ **Note on Purchase Revenue Nulls:** Will filter or impute the 7.91% null revenue values in subsequent analyses to maintain data integrity.
+### Cohort Performance Summary
+**Analysis Period:** November 2020 - January 2021
 
+| Cohort Month | Cohort Size | Month 1 Retention | Month 2 Retention | Month 3 Retention | Revenue per Customer | Avg Order Value |
+|--------------|-------------|-------------------|-------------------|-------------------|----------------------|-----------------|
+| 2020-11      | 1,484       | 6.4%              | 0.67%             | 0.0%              | $103.54              | $72.07          |
+| 2020-12      | 1,810       | 2.04%             | 0.0%              | N/A               | $85.23               | $68.32          |
+| 2021-01      | 772         | 0.0%              | N/A               | N/A               | $70.26               | $63.66          |
 
+### Critical Retention Insights
 
-## 🚀 Coming Soon
-- Cohort retention analysis
-- Revenue driver identification
-- Marketing channel performance
-- Customer churn risk scoring
+🚨 **Major Retention Challenge Identified:**
+- **93.6% of November cohort customers never made a second purchase** (only 6.4% returned in Month 1)
+- **Retention drops to near-zero by Month 2** (0.67% for November cohort)
+- **December cohort shows even worse retention** at 2.04% Month 1
+- **January cohort has 0% Month 1 retention** (though limited observation window)
 
-## 📫 Connect
-[Your LinkedIn URL]
+📊 **Retention Curve Analysis:**
+The detailed retention curve shows:
+- **November 2020:** 1,481 customers → 95 active in Month 1 (6.41%) → 10 active in Month 2 (0.68%)
+- **December 2020:** 1,810 customers → 37 active in Month 1 (2.04%)
+- **Steep drop-off pattern:** 93%+ of customers churn immediately after first purchase
+
+💰 **Revenue Impact:**
+- **Total cohort revenue:** $354,165 across 4,066 customers
+- **November cohort** generated highest revenue per customer ($103.54) despite poor retention
+- **Average order values declining** across cohorts: $72.07 → $68.32 → $63.66
+
+### User Engagement Context
+From earlier analysis, power users (50+ events, 5.42% of users) have:
+- **0.37 average purchases per user** - even highly engaged users rarely convert multiple times
+- This suggests **engagement ≠ conversion** - users browse extensively but don't repurchase
+
+### Root Cause Hypothesis
+Several factors may explain the severe retention problem:
+
+1. **Holiday Shopping Pattern:** Nov-Jan data captures gift-buying season
+   - Many customers are one-time gift purchasers, not repeat buyers
+   - Explains high initial traffic with near-zero retention
+
+2. **Product/Category Mix:** Possible focus on one-time purchase items
+   - Need to analyze product categories in next phase
+   - May lack consumables or subscription-worthy products
+
+3. **No Retention Strategy Visible:** 0.67% Month 2 retention suggests:
+   - Lack of post-purchase email campaigns
+   - No loyalty program or incentives
+   - Missing re-engagement touchpoints
+
+### Business Recommendations
+
+**IMMEDIATE PRIORITIES:**
+
+1. **Launch Month 1 Re-engagement Campaign** 🎯
+   - Email series at Day 7, 14, 30 post-purchase
+   - Offer 15% discount on second purchase
+   - **Potential impact:** Even 5% retention improvement = +$17,700 in recovered revenue
+
+2. **Product Strategy Audit** 📦
+   - Identify which products/categories drive repeat purchases
+   - Shift marketing spend toward repeat-purchase categories
+   - Consider subscription or auto-replenishment options
+
+3. **Loyalty Program for High-AOV Customers** 💎
+   - Target November cohort (highest AOV at $72.07)
+   - Points-based system or VIP tier benefits
+   - Focus on customers who spent $100+ on first purchase
+
+4. **Post-Holiday Retention Test** 🧪
+   - Re-run this analysis on Feb-April data to isolate seasonal effect
+   - If retention improves, confirms holiday gift-buying hypothesis
+   - If remains low, indicates fundamental business model issue
+
+**NEXT ANALYSIS NEEDED:**
+- Revenue driver analysis to identify repeat-purchase product categories
+- Marketing attribution to see if certain channels bring higher-LTV customers
+- Customer segmentation by first product purchased (consumable vs. one-time)
+
 
 ---
 
