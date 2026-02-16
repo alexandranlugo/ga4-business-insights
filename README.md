@@ -148,10 +148,161 @@ Several factors may explain the severe retention problem:
    - If retention improves, confirms holiday gift-buying hypothesis
    - If remains low, indicates fundamental business model issue
 
-**NEXT ANALYSIS NEEDED:**
-- Revenue driver analysis to identify repeat-purchase product categories
-- Marketing attribution to see if certain channels bring higher-LTV customers
-- Customer segmentation by first product purchased (consumable vs. one-time)
+## 💰 Revenue Drivers Analysis
+
+### Top Revenue-Generating Categories
+| Category | Revenue | Customers | AOV | % of Total Revenue |
+|----------|---------|-----------|-----|-------------------|
+| Apparel | $171,786 | 2,430 | $57.13 | 47.4% |
+| New | $25,800 | 907 | $24.57 | 7.12% |
+| Bags | $23,854 | 498 | $39.96 | 6.58% |
+| Campus Collection | $20,060 | 737 | $23.88 | 5.54% |
+| Accessories | $17,839 | 775 | $20.00 | 4.92% |
+
+### Key Product Insights
+**Top 5 Products by Revenue:**
+- Google Zip Hoodie F/C (Apparel): $13,692 | 217 buyers | $50.54 AOV
+- Google Men's Tech Fleece Grey (Apparel): $9,964 | 90 buyers | $74.37 AOV
+- Google Badge Heavyweight Pullover (Apparel): $9,564 | 149 buyers | $48.49 AOV
+- Super G Unisex Joggers (Shop by Brand): $8,964 | 209 buyers | $31.04 AOV
+- Google Crewneck Sweatshirt (Apparel): $8,118 | 146 buyers | $45.64 AOV
+
+**Notable Outliers:**
+- Gift Cards: Tiny volume (9 customers) but highest AOV at $206.25
+- Google Men's Puff Jacket Black: Premium pricing at $96.75 avg with strong demand
+- Google Utility BackPack: $99.23 avg price, solid revenue per unit at $99.17
+
+### Cross-Sell Opportunities
+**Top Category Pairs Purchased Together:**
+- Apparel + New: 508 customers (strongest cross-sell pair)
+- Accessories + Apparel: 379 customers
+- Apparel + Campus Collection: 343 customers
+- Apparel + Shop by Brand: 336 customers
+- Apparel + Office: 287 customers
+
+**Key Insight:** Apparel appears in 8 of the top 10 cross-sell pairs, making it the 
+anchor category for bundle and recommendation strategies.
+
+### Customer Value Segmentation
+| Segment | Customers | Avg LTV | Total Revenue | % of Revenue |
+|---------|-----------|---------|---------------|--------------|
+| Medium Value - One-Time Buyer | 1,050 | $71.97 | $75,565 | 20.86% |
+| High Value - One-Time Buyer | 465 | $138.42 | $64,364 | 17.77% |
+| VIP - One-Time Buyer | 143 | $342.99 | $49,047 | 13.54% |
+| Low Value - One-Time Buyer | 1,687 | $28.25 | $47,658 | 13.16% |
+| VIP - Repeat Buyer (3+) | 97 | $392.48 | $38,071 | 10.51% |
+| VIP - Returning Customer (2) | 98 | $370.73 | $36,332 | 10.03% |
+
+**Critical Insight:** The top 338 VIP customers (143 one-time + 97 repeat + 98 returning) 
+generate 34.08% of total revenue despite representing only 7.6% of the customer base.
+
+### Revenue Trends (Weekly)
+**Peak Performance:**
+- Peak week: Dec 6, 2020 with $57,798 revenue (696 customers)
+- Strong pre-holiday surge: Nov 15-Dec 6 showed consistent 30-40% WoW growth
+
+**Holiday Cliff Effect:**
+- Dec 20 week crashed -70.27% ($57,798 → $14,954) - post-holiday drop
+- Dec 27 continued declining -27.27% ($10,876)
+- January recovery: +51.29% WoW Jan 10, +80.33% WoW Jan 17
+
+**Seasonal Pattern:**
+- Holiday season (Nov 15 - Dec 13) drove the majority of revenue
+- Post-holiday period (Dec 20 - Jan 10) represents significant revenue trough
+- Late January showed strong recovery signals (+80% WoW by Jan 17)
+
+### Business Recommendations
+1. **Double Down on Apparel:** Dominates at 47.4% of revenue - priority for inventory, 
+   marketing, and new product development
+2. **Bundle Strategy:** Apparel + New Items is the #1 cross-sell pair (508 customers) - 
+   create curated bundles to increase AOV
+3. **VIP Program:** Top 338 customers generate 34% of revenue - a dedicated VIP 
+   retention program could protect this revenue concentration risk
+4. **Holiday Planning:** Replicate Nov 15-Dec 6 growth strategies; build post-holiday 
+   re-engagement campaign to reduce the December cliff effect
+5. **Premium Product Investment:** High-AOV items (Puff Jackets $96, Backpacks $99, 
+   Gift Cards $206) show strong demand - expand premium product line
+
+---
+
+## 🎯 Marketing Attribution Analysis
+
+### Channel Performance Summary
+| Channel | Users | Conversion Rate | Revenue | Revenue/User |
+|---------|-------|----------------|---------|--------------|
+| Google Organic | 103,487 | 1.19% | $95,775 | $0.93 |
+| Direct | 75,951 | 1.39% | $79,650 | $1.05 |
+| Data Deleted | 17,948 | 3.79% | $50,064 | $2.79 |
+| shop.googlemerchandisestore referral | 26,065 | 2.18% | $46,521 | $1.78 |
+| Other Referral | 32,880 | 1.42% | $37,000 | $1.13 |
+| Google CPC | 15,527 | 0.98% | $9,056 | $0.58 |
+
+### Conversion Funnel by Channel
+**All top channels show similar overall conversion (1.17-1.39%) with one exception:**
+- Data Deleted segment: 3.79% overall conversion - highest quality traffic
+- Biggest funnel drop-off across ALL channels: View Item → Add to Cart (~18-27%)
+- Checkout completion rates are strong across channels (73-83%)
+
+**Key Funnel Insight:** The primary conversion problem is getting users from product 
+views to cart, not from cart to checkout. This points to product page optimization 
+as the highest-leverage improvement area.
+
+### First-Touch vs Last-Touch Attribution
+| Channel | First-Touch Revenue | Last-Touch Revenue | Difference |
+|---------|--------------------|--------------------|------------|
+| Google | $131,334 | $104,831 | +$26,503 |
+| Other | $96,571 | $81,099 | +$15,472 |
+| Direct | $83,743 | $79,650 | +$4,093 |
+| shop.googlemerchandisestore | $28,616 | $46,521 | -$17,905 |
+| Data Deleted | $21,901 | $50,064 | -$28,163 |
+
+**Attribution Insights:**
+- **Google is an awareness driver:** $26,503 gap means Google initiates far more 
+  journeys than it closes - it introduces customers who convert elsewhere
+- **shop.googlemerchandisestore.com is a closing channel:** -$17,905 difference means 
+  it rarely initiates but frequently closes sales - high purchase intent traffic
+- **Direct traffic is balanced:** Small $4,093 difference suggests loyal/returning users 
+  who both discover and convert directly
+
+### Customer Acquisition Cost (CAC) Recommendations
+**Highest Quality Channels (invest more):**
+- Data Deleted: $73.62 revenue/customer, max CAC $24.54 for 3x ROI
+- shop.googlemerchandisestore referral: $81.90 revenue/customer, max CAC $27.30
+- Other Referral: $79.06 revenue/customer, max CAC $26.35
+
+**Optimize or Reduce:**
+- Google CPC: Lowest quality score (0.58) with only $58.05 revenue/customer
+  and 0.98% conversion - paid search ROI needs immediate review
+- Google Organic: Highest volume but lowest revenue/user ($0.93) - 
+  focus on conversion rate optimization for organic traffic
+
+### Campaign Performance
+- Majority of campaigns tagged as "(not set)" - indicates significant gap in 
+  UTM tracking implementation
+- Referral campaigns consistently outperform across all sources
+- Recommendation: Implement consistent UTM tagging to unlock campaign-level insights
+
+### Marketing Budget Allocation Recommendations
+1. **Protect referral partnerships:** shop.googlemerchandisestore.com and other 
+   referral sources show highest revenue per customer ($79-82)
+2. **Audit Google CPC immediately:** Lowest quality score (0.58) suggests poor 
+   keyword targeting or landing page mismatch - pause underperforming campaigns
+3. **Fix UTM tracking:** Most campaigns show "(not set)" - missing critical data 
+   for campaign optimization decisions
+4. **Invest in product page optimization:** View-to-cart drop-off (18-27%) is the 
+   primary conversion bottleneck across ALL channels
+5. **Leverage Google for awareness:** Use Google Organic/CPC for top-of-funnel 
+   awareness; retarget these users through direct and referral channels to close
+
+### Combined Revenue + Attribution Insight
+**The most valuable customer profile:**
+- Acquired via referral or direct channel (highest conversion rates)
+- First purchase in Apparel category (47.4% of revenue, strongest cross-sell anchor)
+- Engaged enough to become VIP ($200+ spend) = $370-392 LTV
+- Targeted with cross-sell bundle (Apparel + New Items = top pairing)
+
+*This profile represents the ideal customer acquisition and retention strategy 
+for maximum ROI.*
 
 
 ---
